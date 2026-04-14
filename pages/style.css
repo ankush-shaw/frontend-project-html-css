@@ -358,9 +358,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px;
+    height: 850px;
     background-color: #FAF8FF;
-    margin-bottom: 100px;
 }
 
 .project .box {
@@ -406,3 +405,36 @@
 
 /* Footer Section */
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    height: 153px;
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer .content .brand {
+    margin-bottom: 10px;
+}
+.footer .content .brand a{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #0F172A;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer .content p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #64748B;
+}
