@@ -347,6 +347,12 @@
     color: #434656;
 }
 
+.next {
+
+    position: relative;
+    top: 100px;
+}
+
 
 
 /* Project Section */
