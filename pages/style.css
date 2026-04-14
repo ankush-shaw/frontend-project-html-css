@@ -515,3 +515,70 @@
     font-weight: 400;
     font-size: 20px;
 }
+
+.casestudy .casestudy-section{
+    height: 1300px;
+}
+
+.casestudy .testimonial{
+    border: 1px solid #C3C5D933;
+}
+.casestudy .testimonial{
+    display: flex;
+    align-items: center;
+    height: 450px;
+    padding: 0 40px;
+}
+.testimonial img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    
+}
+
+.testimonial .top{
+    font-size: 0;
+}
+.testimonial .top img{
+    width: 34px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+
+
+.testimonial .photo {
+    margin-right: 30px;
+    height: 110px;
+    width: 110px;
+;
+    
+}
+.casestudy .testimonial .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.casestudy .testimonial .text .mid{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+
+.casestudy .testimonial .text .bottom{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: #131B2E;
+}
+
+.testimonial .content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
