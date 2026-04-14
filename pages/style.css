@@ -438,3 +438,16 @@
     font-size: 17px;
     color: #64748B;
 }
+
+
+.footer .content .right{
+    display: flex;
+    gap: 40px;
+}
+.footer .content .right a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #64748B;
+    text-decoration: none;
+}
