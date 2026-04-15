@@ -413,7 +413,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background-color: white;
+    background-color: #f8fafc;
     height: 153px;
 }
 
@@ -1035,7 +1035,7 @@
     font-weight: 400;
     line-height: 34.5px;
     color: #434656;
-    margin-bottom:25px ;
+    margin-bottom: 25px;
 }
 
 .service .second .left .blue {
@@ -1046,27 +1046,30 @@
     color: #003EC7;
 
 }
+
 .service .second .left .black {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     color: #434656;
-    
+
 }
 
-.service .extras{
+.service .extras {
     display: flex;
     padding: 0 40px;
     gap: 40px;
     height: 400px;
+    margin-bottom: 100px;
 }
 
-.service .extras .left{
+.service .extras .left {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .service .extras .left .count {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -1090,10 +1093,10 @@
     font-weight: 400;
     line-height: 24px;
     color: #434656;
-    margin-bottom:25px ;
+    margin-bottom: 25px;
 }
 
-.service .third{
+.service .third {
     background-color: #f2f3ff;
     width: 50%;
     padding: 70px 0 0 60px;
@@ -1101,14 +1104,14 @@
     height: 95%;
 }
 
-.service .fourth{
+.service .fourth {
     width: 50%;
     padding: 70px 0 0 60px;
     border-radius: 8px;
     background-color: #003EC7;
 }
 
-.service .extras button{
+.service .extras button {
     border: none;
     font-family: 'Inter';
     background: #E2E7FF;
@@ -1116,7 +1119,7 @@
     font-weight: 600;
     font-size: 15px;
     padding: 10px 20px;
-    border-radius: 50px ;
+    border-radius: 50px;
     margin-right: 10px;
 }
 
@@ -1132,22 +1135,191 @@
     color: #DFE3FF;
     letter-spacing: .5px;
 }
+
 .service .extras .fourth .bot {
     color: #DFE3FF;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 24px;
     width: 496px;
 }
 
-.service .extras .all{
+.service .extras .all {
     height: 90px;
     width: 580px;
-    margin-top:7px;
+    margin-top: 7px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid #DFE3FF33;
 }
 
+.service .project2 {
+    margin: 225px 0;
+    height: 750px;
+
+}
+
+.service .project2 .box {
+    height: 750px;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.service .project2 .box p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    color: #005A3C;
+}
+
+.service .project2 .box h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -2.4px;
+    color: #131B2E;
+}
+
+.service .project2 .box .para {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.5px;
+    color: #434656;
+    text-align: center;
+}
+
+.service .bottombox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.service .bottombox .botbox {
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 250px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service .bottombox .botbox h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #131B2E;
+}
+
+.service .bottombox .botbox p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #434656;
+}
+
+.service .bottombox .botbox img {
+
+    width: 50px;
+    height: 50px;
+}
+
+.service .project-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 32px;
+    height: 650px;
+    background-color: #faf8ff;
+}
+
+.project-next .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    height: 600px;
+    background-color: #E2E7FF;
+
+    border-radius: 10px;
+}
+
+.project-next .box h1 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 75px;
+    letter-spacing: -3px;
+    color: black;
+}
+
+.project-next .box p {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.5px;
+    color: #434656;
+}
+
+
+.project-next .box .but {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.project-next .box button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    background-color: #003EC7;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.service .footer {
+    margin-top: 100px;
+}
+
+.service .but {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .btnright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.service .line{
+    width: 40px;
+    border: 2px solid #005A3C;
+}
