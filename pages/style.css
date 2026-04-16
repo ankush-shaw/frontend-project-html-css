@@ -125,16 +125,40 @@
 
 
 .heroimage {
+    padding: 20px 0;
     width: 45%;
-    height: 700px;
+    height: 800px;
     background-color: rgb(254, 248, 253);
 }
 
 .heroimage img {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     object-fit: cover;
+}
+
+.heroimage .herobackground img{
+    border-top-right-radius: 0;
+}
+
+.heroimage .herobackground{
+    transform: rotate(1deg);
+    position: absolute;
+    z-index: 0;
+    width: 45%;
+    height: 100%;
+    opacity: .4;
+    right: 7px;
+    
+}
+.heroimage .front{
+    transform: rotate(-2deg);
+    position: absolute;
+    z-index: 1;
+    width: 45%;
+   
+    right: 40px;
 }
 
 /* Toolkit Section */
@@ -1390,7 +1414,7 @@
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 350px 1fr;
     gap: 35px;
-    
+
 }
 
 .form-section .form {
@@ -1402,7 +1426,7 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    gap: 40px;  
+    gap: 40px;
 }
 
 .contact .form .top {
@@ -1416,13 +1440,13 @@
     gap: 10px;
 }
 
-.form-section .form  .email {
+.form-section .form .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.form-section .form  p {
+.form-section .form p {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1471,7 +1495,7 @@
     color: #131B2E;
 }
 
-.form-section .middle .dropdown .i span{
+.form-section .middle .dropdown .i span {
     font-size: 40px;
     color: #6b7280;
 }
@@ -1488,11 +1512,11 @@
     margin: 0;
 }
 
-.form-section .bottom .textarea textarea{
+.form-section .bottom .textarea textarea {
     height: 200px;
     background-color: #eaedff;
     resize: none;
-    outline:none;
+    outline: none;
     border: none;
     padding: 20px;
     font-family: 'Inter', sans-serif;
@@ -1502,12 +1526,12 @@
     color: #73768880;
 }
 
-.form-section .but button{
+.form-section .but button {
     border: none;
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    background:linear-gradient(to right,    #013EC7FF,#0252FFFF);
+    background: linear-gradient(to right, #013EC7FF, #0252FFFF);
     color: white;
     padding: 20px 40px;
     border-radius: 12px;
@@ -1523,13 +1547,44 @@
 }
 
 .form-section .image {
+    display: flex;
     height: 270px;
     margin-top: 80px;
     align-items: end;
+    justify-content: center;
     border-radius: 8px;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: #faf8ff;
+}
+
+.form-section .imagetop {
+    padding: 30px;
+    margin: 30px;
+    position: absolute;
+    z-index: 2;
+    background-color: #FFFFFFCC;
+    border-radius: 8px;
+    backdrop-filter: blur(7px);
+}
+
+.form-section .imagetop .uptext {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: .6px;
+    color: #005A3C;
+
+}
+
+.form-section .imagetop .downtext {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: italic;
+    color: #131B2E;
 }
 
 .form-section .image img {
@@ -1539,24 +1594,25 @@
     border-radius: 8px;
 }
 
-.contact .content-container{
+.contact .content-container {
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 40px;
     justify-content: space-between;
 }
-.contact .content-container .content{
-       display: flex;
-       gap: 20px;
+
+.contact .content-container .content {
+    display: flex;
+    gap: 20px;
 }
 
-.contact .content-container .map{
+.contact .content-container .map {
     height: 60px;
     width: 60px;
 }
 
-.contact .content-container .content .context h1{
+.contact .content-container .content .context h1 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -1564,7 +1620,7 @@
     color: #131B2E;
 }
 
-.contact .content-container .content .context p{
+.contact .content-container .content .context p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -1572,23 +1628,63 @@
     color: #434656;
 }
 
-.contact .botimage{
+.contact .botimage {
     height: 500px;
     margin: 150px 0;
-    padding:  0 40px;
+    padding: 0 40px;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
-.contact .botimage img{
+.contact .botimage img {
     width: 100%;
     height: 100%;
     object-fit: fill;
     border-radius: 20px;
-    opacity: .6;
+    z-index: 0;
 }
 
-.contact .footer2 .content .middle{
+.contact .botimage .imagetop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.contact .botimage .imagetop .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.contact .botimage .imagetop .text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #131B2E;
+}
+
+.contact .botimage .overlay {
+    position: absolute;
+    width: 95%;
+    height: 72%;
+    margin: 150px 0;
+    padding: 0 40px;
+    background-color: #D2D9F4;
+    opacity: .6;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.contact .footer2 .content .middle {
     flex-direction: row;
 }
