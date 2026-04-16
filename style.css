@@ -142,7 +142,7 @@
     border-top-right-radius: 0;
 }
 
-.heroimage .herobackground{
+.heroimage .herobackground{ 
     transform: rotate(1deg);
     position: absolute;
     z-index: 0;
