@@ -13,6 +13,10 @@
 
 .header {
     display: flex;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 4;
     justify-content: space-between;
     align-items: center;
     height: 92px;
