@@ -1,0 +1,363 @@
+.casestudy {
+    background-color: rgb(254, 248, 253);
+}
+
+.casestudy .textarea {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 600px;
+    padding: 60px 0 0 45px;
+    background-color: rgb(250, 248, 255);
+}
+
+.casestudy .textarea p {
+    color: #005A3C;
+}
+
+.casestudy .textarea .text {
+    font-size: 81px;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+.casestudy .textarea .para {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #475569;
+}
+
+.casestudy .next {
+    position: relative;
+    top: 150px;
+}
+
+.casestudy .casecard .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.casestudy .casecard h1 {
+    font-size: 37px;
+}
+
+.casestudy .info {
+    padding: 0;
+    margin: 0;
+}
+
+.casestudy .small {
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: #475569;
+
+}
+
+.casestudy .casecard p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.casestudy .casestudy-section {
+    height: 1350px;
+}
+
+.casestudy .testimonial {
+    border: 1px solid #C3C5D933;
+    background-color: rgb(254, 248, 253);
+}
+
+.casestudy .testimonial {
+    display: flex;
+    align-items: center;
+    height: 450px;
+    padding: 0 40px;
+}
+
+.testimonial img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+
+.testimonial .top {
+    font-size: 0;
+}
+
+.testimonial .top img {
+    width: 34px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+
+
+.testimonial .photo {
+    margin-right: 30px;
+    height: 110px;
+    width: 110px;
+    ;
+
+}
+
+.casestudy .testimonial .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.casestudy .testimonial .text .mid {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+
+.casestudy .testimonial .text .bottom {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: #131B2E;
+}
+
+.testimonial .content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.casestudy .next {
+    margin-bottom: 150px;
+}
+
+
+.casestudy .banner {
+    margin: 25px 0 0 0;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    background-color: #F2F3FF;
+    padding: 0 40px;
+
+}
+
+.casestudy .banner .texts {
+    display: flex;
+    width: 45%;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.casestudy .first {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.casestudy .second {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #434656;
+}
+
+.casestudy .third,
+.fourth {
+    display: flex;
+
+}
+
+.casestudy .banner .icon {
+
+    margin-right: 15px;
+}
+
+.casestudy .banner .heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.casestudy .banner .desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #434656;
+}
+
+.casestudy .banner .boxes {
+    width: 55%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 383px 383px;
+    grid-template-rows: 184px 184px;
+    gap: 20px;
+}
+
+.casestudy .boxes .box {
+    background-color: white;
+    padding: 40px 0 0 40px;
+    border-radius: 8px;
+
+}
+
+.casestudy .boxes .int {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #003EC7;
+    margin-bottom: 10px;
+}
+
+.casestudy .boxes .des {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1.4px;
+    line-height: 20px;
+    color: #737688;
+}
+
+.box2,
+.box4 {
+    background-color: white;
+    height: 144px;
+    padding: 40px 0 0 40px;
+    border-radius: 8px;
+    align-self: end;
+}
+
+.casestudy .project2 {
+    height: 650px;
+    background-color: white;
+}
+
+
+.project2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    background-color: #FAF8FF;
+}
+
+.project2 .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    height: 500px;
+    background-color: white;
+    border-radius: 32px;
+    padding: 300px;
+}
+
+.project2 .box h1 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 75px;
+    letter-spacing: -3px;
+    color: black;
+}
+
+
+.project2 .box .but {
+    display: flex;
+    gap: 30px;
+}
+
+.project2 .box button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    background: linear-gradient(to right, #003EC7, #0052FF);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+.project2 .box .test {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #003EC7;
+    background: #E2E7FF;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    height: 153px;
+}
+
+.footer2 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer2 .content .brand {
+    margin-bottom: 10px;
+}
+
+.footer2 .content .brand a {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #0F172A;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer2 .content p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #64748B;
+}
+
+
+.footer2 .content .middle {
+    display: flex;
+    gap: 40px;
+}
+
+.footer2 .content .middle a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #64748A;
+    text-decoration: none;
+
+}
