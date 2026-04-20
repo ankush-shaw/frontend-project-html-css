@@ -330,6 +330,8 @@
 .service .project2 .box {
     height: 750px;
     display: flex;
+    flex-direction: column;
+    gap: 30px;
     padding: 0;
     justify-content: center;
     align-items: center;
@@ -342,7 +344,7 @@
 .service .project2 .box p {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 18px;
     letter-spacing: 1.2px;
     color: #005A3C;
